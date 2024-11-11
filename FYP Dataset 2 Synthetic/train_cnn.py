@@ -5,7 +5,7 @@ from cnn_data_preparation import load_and_preprocess_data
 from models_cnn import EEG_CNN  # Import your model
 
 # Define the path to your dataset
-file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 2\standardized_mental_state.csv'
+file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 2\synthetic_data.csv'
 
 # Define batch size
 batch_size = 64

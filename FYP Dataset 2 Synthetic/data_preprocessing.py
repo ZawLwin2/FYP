@@ -39,7 +39,7 @@ def load_and_preprocess_data(file_path):
     return dataloader
 
 # Define the file path for Dataset 2
-file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 2\emotions.csv'
+file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 2\standardized_mental_state (dataset 2).csv'
 
 # Load, preprocess, and normalize the data
 dataloader = load_and_preprocess_data(file_path)
