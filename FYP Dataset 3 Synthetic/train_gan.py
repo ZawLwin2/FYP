@@ -26,7 +26,7 @@ def load_eeg_data(file_path):
     return data
 
 # Assuming 'EEG_data.csv' is the original EEG dataset
-file_path = 'C:/Users/zawlw/Downloads/FYP (EEG Data Augmentation)/Dataset 3/EEG_data.csv'
+file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 3\standardized_EEG_data (dataset 3).csv'
 eeg_data = load_eeg_data(file_path)
 
 # Create DataLoader

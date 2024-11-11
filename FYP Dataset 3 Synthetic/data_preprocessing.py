@@ -46,7 +46,7 @@ def load_and_preprocess_data(file_path, batch_size=64):
     return dataloader
 
 # Define the file path for Dataset 3 (adjust accordingly)
-file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 3\EEG_data.csv'
+file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 3\standardized_EEG_data (dataset 3).csv'
 
 # Load, preprocess, and normalize the data for Dataset 3
 dataloader = load_and_preprocess_data(file_path)
