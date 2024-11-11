@@ -23,7 +23,7 @@ disc_optimizer = optim.Adam(discriminator.parameters(), lr=learning_rate, betas=
 criterion = torch.nn.BCELoss()
 
 # Load data
-file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 1\standardized_mental_state.csv'  # Replace with the correct path
+file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 1\standardized_mental_state (dataset 1).csv'  # Replace with the correct path
 dataloader = load_and_preprocess_data(file_path)
 
 # Training loop

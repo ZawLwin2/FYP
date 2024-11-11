@@ -28,7 +28,7 @@ def load_and_preprocess_data(file_path):
 
 
 # Define the file path
-file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 1\mental-state.csv'
+file_path = r'C:\Users\zawlw\Downloads\FYP (EEG Data Augmentation)\Dataset 1\standardized_mental_state (dataset 1).csv'
 
 # Load the data
 dataloader = load_and_preprocess_data(file_path)
